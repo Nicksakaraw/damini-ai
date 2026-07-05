@@ -1,0 +1,100 @@
+[
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 0,
+    "type": "user",
+    "message": "powershell -c \"iex (irm https://storage.googleapis.com/cloud-samples-data/adc/setup_adc.ps1)\"",
+    "timestamp": "2026-05-19T04:27:42.278Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 1,
+    "type": "user",
+    "message": "(New-Object Net.WebClient).DownloadFile(\"https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe\", \"$env:Temp\\GoogleCloudSDKInstaller.exe\")\n\n& $env:Temp\\GoogleCloudSDKInstaller.exe\n\n(New-Object Net.WebClient).DownloadFile(\"https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe\", \"$env:Temp\\GoogleCloudSDKInstaller.exe\")\n\n& $env:Temp\\GoogleCloudSDKInstaller.exe",
+    "timestamp": "2026-05-19T04:38:53.594Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 2,
+    "type": "user",
+    "message": "(New-Object Net.WebClient).DownloadFile(\"https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe\", \"$env:Temp\\GoogleCloudSDKInstaller.exe\")\n\n& $env:Temp\\GoogleCloudSDKInstaller.exe",
+    "timestamp": "2026-05-19T04:43:46.282Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 3,
+    "type": "user",
+    "message": "(New-Object Net.WebClient).DownloadFile(\"https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe\", \"$env:Temp\\GoogleCloudSDKInstaller.exe\")\n\n& $env:Temp\\GoogleCloudSDKInstaller.exe",
+    "timestamp": "2026-05-19T04:58:50.497Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 4,
+    "type": "user",
+    "message": "$env:Temp\\GoogleCloudSDKInstaller.exe",
+    "timestamp": "2026-05-19T04:59:41.332Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 5,
+    "type": "user",
+    "message": "gcloud config set disable_color true",
+    "timestamp": "2026-05-19T05:47:49.085Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 6,
+    "type": "user",
+    "message": "gcloud config unset disable_color",
+    "timestamp": "2026-05-19T05:48:22.731Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 7,
+    "type": "user",
+    "message": "q",
+    "timestamp": "2026-05-19T05:48:43.603Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 8,
+    "type": "user",
+    "message": "gcloud auth list",
+    "timestamp": "2026-05-19T05:49:20.966Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 9,
+    "type": "user",
+    "message": "gcloud config list",
+    "timestamp": "2026-05-19T05:49:54.226Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 10,
+    "type": "user",
+    "message": "gcloud info",
+    "timestamp": "2026-05-19T05:50:42.211Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 11,
+    "type": "user",
+    "message": "gcloud help topic",
+    "timestamp": "2026-05-19T05:51:37.706Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 12,
+    "type": "user",
+    "message": "gcloud topic command-conventions",
+    "timestamp": "2026-05-19T05:52:05.378Z"
+  },
+  {
+    "sessionId": "aacdfa4e-5b84-46b3-8e4c-88dc17c4aaa8",
+    "messageId": 13,
+    "type": "user",
+    "message": "q",
+    "timestamp": "2026-05-19T05:52:56.421Z"
+  }
+]

@@ -1,0 +1,53 @@
+[2026-07-05T12:26:42.687Z] Activating Agent Skill Installer
+[2026-07-05T12:26:42.708Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-07-05T12:26:42.708Z] Profile antigravity-ide is NOT active
+[2026-07-05T12:26:42.708Z] Profile antigravity is NOT active
+[2026-07-05T12:26:42.708Z] Profile jetski is NOT active
+[2026-07-05T12:26:42.708Z] Profile cursor is NOT active
+[2026-07-05T12:26:42.708Z] Profile copilot is NOT active
+[2026-07-05T12:26:42.708Z] Profile gemini-code-assist is active
+[2026-07-05T12:26:46.128Z] Checking skills for Gemini Code Assist in /home/m09_tapan/.gemini/skills. Force=false
+[2026-07-05T12:26:46.129Z] No previous manifest found or it was invalid.
+[2026-07-05T12:26:46.130Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills
+[2026-07-05T12:26:46.136Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/accidental-data-loss-prevention
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/bigquery-data-transfer-service
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/building-data-apps
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/data-autocleaning
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/dataform-bigquery
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/dbt-bigquery
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/developing-with-bigquery
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/discovering-gcp-data-assets
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/federate-lakehouse-catalog
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcloud-auth-verification
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-composer-troubleshooting
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-data-pipelines
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-dataflow
+[2026-07-05T12:26:46.137Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-pipeline-orchestration
+[2026-07-05T12:26:46.138Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-07-05T12:26:46.138Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/gcp-spark
+[2026-07-05T12:26:46.138Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/managing-python-dependencies
+[2026-07-05T12:26:46.139Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/ml-best-practices
+[2026-07-05T12:26:46.139Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/notebook-guidance
+[2026-07-05T12:26:46.139Z] Ensured destination directory exists: /home/m09_tapan/.gemini/skills/skill-repair
+[2026-07-05T12:26:46.308Z] Copied skill accidental-data-loss-prevention to /home/m09_tapan/.gemini/skills/accidental-data-loss-prevention
+[2026-07-05T12:26:46.314Z] Copied skill dataform-bigquery to /home/m09_tapan/.gemini/skills/dataform-bigquery
+[2026-07-05T12:26:46.315Z] Copied skill gcloud-auth-verification to /home/m09_tapan/.gemini/skills/gcloud-auth-verification
+[2026-07-05T12:26:46.316Z] Copied skill federate-lakehouse-catalog to /home/m09_tapan/.gemini/skills/federate-lakehouse-catalog
+[2026-07-05T12:26:46.316Z] Copied skill discovering-gcp-data-assets to /home/m09_tapan/.gemini/skills/discovering-gcp-data-assets
+[2026-07-05T12:26:46.317Z] Copied skill gcp-composer-troubleshooting to /home/m09_tapan/.gemini/skills/gcp-composer-troubleshooting
+[2026-07-05T12:26:46.318Z] Copied skill gcp-data-pipelines to /home/m09_tapan/.gemini/skills/gcp-data-pipelines
+[2026-07-05T12:26:46.318Z] Copied skill managing-python-dependencies to /home/m09_tapan/.gemini/skills/managing-python-dependencies
+[2026-07-05T12:26:46.319Z] Copied skill dbt-bigquery to /home/m09_tapan/.gemini/skills/dbt-bigquery
+[2026-07-05T12:26:46.320Z] Copied skill skill-repair to /home/m09_tapan/.gemini/skills/skill-repair
+[2026-07-05T12:26:46.321Z] Copied skill ml-best-practices to /home/m09_tapan/.gemini/skills/ml-best-practices
+[2026-07-05T12:26:46.321Z] Copied skill notebook-guidance to /home/m09_tapan/.gemini/skills/notebook-guidance
+[2026-07-05T12:26:46.340Z] Copied skill data-autocleaning to /home/m09_tapan/.gemini/skills/data-autocleaning
+[2026-07-05T12:26:46.342Z] Copied skill gcp-pipeline-resource-provisioning to /home/m09_tapan/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-07-05T12:26:46.357Z] Copied skill bigquery-data-transfer-service to /home/m09_tapan/.gemini/skills/bigquery-data-transfer-service
+[2026-07-05T12:26:46.364Z] Copied skill gcp-spark to /home/m09_tapan/.gemini/skills/gcp-spark
+[2026-07-05T12:26:46.370Z] Copied skill building-data-apps to /home/m09_tapan/.gemini/skills/building-data-apps
+[2026-07-05T12:26:46.372Z] Copied skill gcp-dataflow to /home/m09_tapan/.gemini/skills/gcp-dataflow
+[2026-07-05T12:26:46.373Z] Copied skill developing-with-bigquery to /home/m09_tapan/.gemini/skills/developing-with-bigquery
+[2026-07-05T12:26:46.373Z] Copied skill gcp-pipeline-orchestration to /home/m09_tapan/.gemini/skills/gcp-pipeline-orchestration
+[2026-07-05T12:26:46.374Z] Finished copying skills to /home/m09_tapan/.gemini/skills. Updated 20 skills.
+[2026-07-05T12:26:46.376Z] Installation completed. Manifest updated.

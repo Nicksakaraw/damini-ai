@@ -1,0 +1,102 @@
+2026-07-05 12:26:36.405 [info] [main] Log level: Info
+2026-07-05 12:26:36.405 [info] [main] Validating found git in: "git"
+2026-07-05 12:26:36.405 [info] [main] Using git "2.43.0" from "git"
+2026-07-05 12:26:36.405 [info] [Model][doInitialScan] Initial repository scan started
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [3ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [3ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [5ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [1ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.405 [info] > git rev-parse --show-toplevel [4ms]
+2026-07-05 12:26:36.405 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.406 [info] > git rev-parse --show-toplevel [3ms]
+2026-07-05 12:26:36.406 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:36.446 [info] > git rev-parse --show-toplevel [36ms]
+2026-07-05 12:26:36.456 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2026-07-05 12:26:37.916 [info] [Model][openRepository] Opened repository (path): /home/m09_tapan/batch-samples
+2026-07-05 12:26:37.916 [info] [Model][openRepository] Opened repository (real path): /home/m09_tapan/batch-samples
+2026-07-05 12:26:37.916 [info] [Model][openRepository] Opened repository (kind): repository
+2026-07-05 12:26:37.919 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-07-05 12:26:37.945 [info] > git config --get commit.template [8ms]
+2026-07-05 12:26:37.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [56ms]
+2026-07-05 12:26:38.002 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/m09_tapan/batch-samples/.git/refs/remotes/origin/main'
+2026-07-05 12:26:38.003 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-07-05 12:26:38.033 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2026-07-05 12:26:40.587 [info] > git status -z -uall [2579ms]
+2026-07-05 12:26:40.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-07-05 12:26:40.739 [info] > git config --get commit.template [82ms]
+2026-07-05 12:26:40.768 [info] > git config --get --local branch.main.vscode-merge-base [101ms]
+2026-07-05 12:26:40.768 [warning] [Git][config] git config failed: Failed to execute git
+2026-07-05 12:26:40.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2026-07-05 12:26:40.794 [info] > git reflog main --grep-reflog=branch: Created from *. [21ms]
+2026-07-05 12:26:40.810 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/m09_tapan/batch-samples/.git/refs/remotes/origin/main'
+2026-07-05 12:26:40.818 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2026-07-05 12:26:40.843 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [41ms]
+2026-07-05 12:26:40.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2026-07-05 12:26:40.872 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-07-05 12:26:40.879 [info] > git config --add --local branch.main.vscode-merge-base origin/main [7ms]
+2026-07-05 12:26:40.898 [info] > git status -z -uall [68ms] (cancelled)
+2026-07-05 12:26:40.902 [info] > git config --get commit.template [4ms]
+2026-07-05 12:26:40.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-07-05 12:26:40.945 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/m09_tapan/batch-samples/.git/refs/remotes/origin/main'
+2026-07-05 12:26:40.951 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2026-07-05 12:26:41.021 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [37ms]
+2026-07-05 12:26:41.089 [info] > git check-ignore -v -z --stdin [2ms]
+2026-07-05 12:26:41.525 [info] > git status -z -uall [560ms]
+2026-07-05 12:26:41.621 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2026-07-05 12:26:41.703 [info] > git merge-base refs/heads/main refs/remotes/origin/main [103ms]
+2026-07-05 12:26:42.857 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% ecfc90b1f7b589fa184f0f04952c3d79031d9f11...refs/remotes/origin/main -- [1215ms]
+2026-07-05 12:26:43.144 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% ecfc90b1f7b589fa184f0f04952c3d79031d9f11...refs/remotes/origin/main -- [1425ms]
+2026-07-05 12:26:43.187 [info] > git rev-parse --show-toplevel [211ms]
+2026-07-05 12:26:43.187 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:49.396 [info] > git rev-parse --show-toplevel [5ms]
+2026-07-05 12:26:49.396 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:26:54.248 [info] > git rev-parse --show-toplevel [5ms]
+2026-07-05 12:26:54.249 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-07-05 12:27:00.307 [info] > git rev-parse --show-toplevel [2ms]
+2026-07-05 12:27:00.335 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2026-07-05 12:27:00.458 [info] [Model][openRepository] Opened repository (path): /home/m09_tapan/.gemini/history/m09-tapan
+2026-07-05 12:27:00.459 [info] [Model][openRepository] Opened repository (real path): /home/m09_tapan/.gemini/history/m09-tapan
+2026-07-05 12:27:00.459 [info] [Model][openRepository] Opened repository (kind): repository
+2026-07-05 12:27:00.484 [info] > git config --get commit.template [4ms]
+2026-07-05 12:27:00.503 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-05 12:27:00.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-07-05 12:27:00.552 [info] > git status -z -uall [23ms]
+2026-07-05 12:27:00.553 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-07-05 12:27:00.598 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-07-05 12:27:00.648 [info] > git config --get commit.template [51ms]
+2026-07-05 12:27:00.651 [info] > git config --get --local branch.main.vscode-merge-base [21ms]
+2026-07-05 12:27:00.651 [warning] [Git][config] git config failed: Failed to execute git
+2026-07-05 12:27:00.720 [info] [Git][getRemotes] No remotes found in the git config file
+2026-07-05 12:27:00.725 [info] > git reflog main --grep-reflog=branch: Created from *. [45ms]
+2026-07-05 12:27:00.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-07-05 12:27:00.773 [info] > git status -z -uall [26ms]
+2026-07-05 12:27:00.776 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-07-05 12:27:01.241 [info] > git check-ignore -v -z --stdin [2ms]

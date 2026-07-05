@@ -1,0 +1,33 @@
+2026-07-05 12:26:45.916 [warning] Dir "/home/m09_tapan/.pixi/envs" is not watchable (directory does not exist)
+2026-07-05 12:26:48.141 [info] Starting Environment refresh
+2026-07-05 12:26:48.141 [info] Searching for interpreters in posix paths locator
+2026-07-05 12:26:48.151 [info] Searching for pyenv environments
+2026-07-05 12:26:48.151 [info] Searching for conda environments
+2026-07-05 12:26:48.152 [info] Searching for global virtual environments
+2026-07-05 12:26:48.152 [info] Searching for custom virtual environments
+2026-07-05 12:26:48.205 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-07-05 12:26:48.206 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-07-05 12:26:48.210 [info] pyenv is not installed
+2026-07-05 12:26:48.211 [info] Finished searching for pyenv environments: 67 milliseconds
+2026-07-05 12:26:48.211 [info] Finished searching for custom virtual envs: 67 milliseconds
+2026-07-05 12:26:48.223 [info] > conda info --json
+2026-07-05 12:26:48.237 [info] > hatch env show --json
+2026-07-05 12:26:48.237 [info] cwd: .
+2026-07-05 12:26:48.257 [info] > pyenv which python
+2026-07-05 12:26:48.257 [info] cwd: .
+2026-07-05 12:26:48.258 [info] Finished searching for global virtual envs: 114 milliseconds
+2026-07-05 12:26:48.285 [info] Found: /bin/python --> /bin/python3.12
+2026-07-05 12:26:48.293 [info] Found: /bin/python3 --> /bin/python3.12
+2026-07-05 12:26:48.299 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-07-05 12:26:48.335 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-07-05 12:26:48.339 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-07-05 12:26:48.342 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-07-05 12:26:48.482 [info] Finished searching for interpreters in posix paths locator: 333 milliseconds
+2026-07-05 12:26:48.482 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-07-05 12:26:48.551 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-07-05 12:26:48.551 [info] Environments refresh paths discovered (event): 413 milliseconds
+2026-07-05 12:26:48.551 [info] Environments refresh paths discovered: 413 milliseconds
+2026-07-05 12:26:48.622 [info] Environments refresh finished (event): 483 milliseconds
+2026-07-05 12:26:48.633 [info] Environment refresh took 496 milliseconds
+2026-07-05 12:26:48.643 [info] Python interpreter path: /bin/python
+2026-07-05 12:26:53.654 [info] Starting Jedi language server for m09_tapan.

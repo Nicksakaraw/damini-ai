@@ -114,3 +114,23 @@ git branch -M main
 git add .
 git commit -m "Initial commit of Damini project"
 git branch -M main git config --global user.email "m09.tapan@gmail.com"
+git add .
+git commit -m "Initial commit of Damini project"
+git branch -M main
+git config --global user.email "mo9tapan@gmail.com"
+git config --global user.name "Tapan Kumar Nayak"
+git commit -m "Initial commit of Damini project"
+git branch -M main
+git push -u origin main
+git commit -m "Initial commit of Damini project"
+git branch -M main
+git push -u origin main
+git commit -m "Initial commit of Damini project"
+git branch -M main
+git push -u origin main
+cd ~/damini-memory-engine
+git config --global user.email "mo9tapan@gmail.com"
+git config --global user.name "Tapan Kumar Nayak"
+git commit -m "Initial commit of Damini project"
+git branch -M main
+git push -u origin main
